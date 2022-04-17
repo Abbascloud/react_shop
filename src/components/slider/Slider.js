@@ -11,42 +11,31 @@ export const Slider = () => {
         <div>
           <img
             className={styles.carousel_img}
-            src="https://picsum.photos/1600/500"
+            src="https://picsum.photos/1500/501"
             alt=""
           />
-          <p className="legend">Legend 1</p>
+          {/* <p className="legend">Legend 2</p> */}
         </div>
         <div>
           <img
             className={styles.carousel_img}
-            src="https://picsum.photos/1600/500"
+            src="https://picsum.photos/1500/502"
             alt=""
           />
-          <p className="legend">Legend 2</p>
         </div>
         <div>
           <img
             className={styles.carousel_img}
-            src="https://picsum.photos/1600/500"
+            src="https://picsum.photos/1500/500"
             alt=""
           />
-          <p className="legend">Legend 3</p>
         </div>
         <div>
           <img
             className={styles.carousel_img}
-            src="https://picsum.photos/1600/500"
+            src="https://picsum.photos/1500/499"
             alt=""
           />
-          <p className="legend">Legend 4</p>
-        </div>
-        <div>
-          <img
-            className={styles.carousel_img}
-            src="https://picsum.photos/1600/500"
-            alt=""
-          />
-          <p className="legend">Legend 5</p>
         </div>
       </Carousel>
     </div>

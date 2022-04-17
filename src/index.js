@@ -4,11 +4,13 @@ import {
   Slider,
   AppointmentButton,
   GoodsAndPrices,
+  Footer,
+  HomeButton,
 } from "./components";
 import { ThemeProvider, createTheme } from "@mui/material";
 import { createRoot } from "react-dom/client";
-import SendFlowers from "./fonts/sendFlowers/SendFlowers.ttf";
 import "./index.css";
+import { Landing } from "./pages";
 
 const theme = createTheme({
   palette: {
@@ -26,7 +28,11 @@ root.render(
   <ThemeProvider theme={theme}>
     <Header />
     <Slider />
-    <AppointmentButton />
-    <GoodsAndPrices />
+    <Landing
+      AppointmentButton={AppointmentButton}
+      GoodsAndPrices={GoodsAndPrices}
+      HomeButton={HomeButton}
+    />
+    <Footer />
   </ThemeProvider>
 );
